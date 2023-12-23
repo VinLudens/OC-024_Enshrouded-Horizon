@@ -20,4 +20,44 @@ left = \absolute {
   <fis, fis>4 <fis,, fis,> <fis cis'>2 |
   r1 |
 
+  \bar "||"
+
+
+
+
+  \repeat tremolo 28 { \ottava -1 gis,,32 gis, \ottava 0 } |
+  \makePercent { s2. s1 } |
+  \makePercent { s2. s1 } |
+
+
+
+
+  \makePercent { s1 s1 } |
+  \makePercent s1 |
+  \ottava 0 \appoggiatura { e,,8 e, } \repeat tremolo 16 { e,32 b, } | \ottava 0
+
+
+
+
+  \repeat tremolo 28 { e,32 b, } |
+
+
+
+
+  \makePercent { s1 s1 } |
+
+
+
+
+  \repeat percent 2 { \repeat tremolo 12 { e,32 b, } } \repeat tremolo 8 { \ottava -1 e,,32 e, } |
+
+
+
+
+  \repeat tremolo 16 { e,,32 e, \ottava 0 } |
+  \makePercent { s1 } |
+  <cis,, cis,>4 \tuplet 7/4 4 { cis,16 gis, cis \change Staff = "right" \clef "treble" b dis' gis' b' \change Staff = "left" cis gis cis' \change Staff = "right" b' dis'' gis'' b'' } \change Staff = "right" r4 |
+  \ottava 1 \tuplet 6/4 {\clef "treble" b'16 dis'' gis'' b'' dis''' gis'''} \change Staff = "left" <ais dis' gis' ais'>8\( <b dis' gis' b'> <ais dis' gis' ais'> <fis fis'> <dis dis'>\) r |
+  <e, e>
+
 }
