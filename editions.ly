@@ -8,4 +8,5 @@
 \addEdition dynamics
 
 \editionMod dynamics 1 0/8 music.Dynamics -"Editions"
-\editionMod tweaks 1 0/8 music.Voice.A -"Editions"
+\editionMod tweaks 32 1/4 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
+\editionMod tweaks 32 1/4 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)

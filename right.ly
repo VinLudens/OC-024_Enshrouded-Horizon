@@ -58,6 +58,49 @@ right = \absolute {
   q4\) <fis fis'>4\( <gis gis'> <ais ais'> |
   <b dis' gis' b'>2. \change Staff = "left" \clef "treble" <ais dis' gis' ais'>4 ~ |
   q\) \change Staff = "right" \clef "treble" <ais'' dis''' gis''' ais'''>8\( <b'' dis''' gis''' b'''> <ais'' dis''' gis''' ais'''> <fis'' fis'''> <dis'' dis'''> <gis'' gis'''> |
-  <fis'' ais'' cis''' fis'''>\) \ottava 0
+
+  <fis'' ais'' cis''' fis'''>4.\) \ottava 0 b'8\( b' b' b' cis'' |
+  <fis' b' dis''>2 cis''4\) ais'8\( b' |
+  ais' fis' dis' cis' dis'2 ~ |
+  2\) b8\( b b cis' |
+
+  <gis b fis'>2 r8 e'8 dis' e' |
+  <b dis'>2.\) \clef "bass" cis'8\( b |
+
+  \bar "||"
+
+  <<
+    {
+      \change Staff = "left" \compoundMeter #'(3 2 4)
+      \change Staff = "right" \compoundMeter #'(3 2 4)
+      ais b ais fis dis cis dis2 |
+      \time 4/4
+      \change Staff = "left" \voiceOne cis2.\) \change Staff = "right" \oneVoice \clef "bass" ais8\( b
+      \change Staff = "left" \compoundMeter #'(3 2 4)
+      \change Staff = "right" \compoundMeter #'(3 2 4)
+      cis' b ais fis dis cis fis2 |
+      \time 4/4
+      \change Staff = "left" \voiceOne dis2\) r \change Staff = "right" \oneVoice |
+    }
+    \new Voice {
+      \voiceOne
+      r2. r2 |
+      \tuplet 3/2 { \clef "treble" \ottava 1 <cis''' ais'''>8 <b'' gis'''> <fis'' ais''> } <cis'' gis''>2\fermata \ottava 0 r4 |
+      r2. r2 |
+      \tempo "Tempo I" 4 = 72
+      \ottava 1 \clef "treble" <gis'' b'' e'''>8\( <fis'' b'' dis'''>8  ~ 4 <dis'' fis'' b''>8 <cis'' fis'' ais''>8  ~ 4\fermata\) \ottava 0 |
+    }
+  >> \oneVoice
+
+  r4 \stemDown ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' ais''''2 \ottava 0 |
+  \tuplet 3/2 { \ottava 1 q4\( <dis'' fis'' b''> <fis'' ais'' cis'''> } <fis'' b'' dis'''>2 |
+  \tuplet 3/2 { q4 <gis'' b'' e'''> <ais'' cis''' fis'''> } <b'' dis''' gis'''>4\) \ottava 0 <dis' e' gis'>8 \ottava 1 <b'' dis''' gis'''>\( |
+  \tuplet 3/2 { q8 <ais'' cis''' fis'''> <gis'' b'' e'''> } <ais'' cis''' fis'''>4 ~ q8\) q\( \tuplet 3/2 { q <gis'' b'' e'''> <fis'' ais'' dis'''> } |
+  \time 3/4
+  <e'' ais'' dis'''>4 \tuplet 3/2 4 { r8 cis''' dis''' fis''' e''' dis''' } |
+  <fis'' b'' dis'''>4 \tuplet 3/2 4 { r8 cis''' dis''' fis''' e''' dis''' } |
+
+
+  <dis''' e''' gis'''>\arpeggio\)
 
 }

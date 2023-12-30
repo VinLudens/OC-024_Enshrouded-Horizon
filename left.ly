@@ -58,6 +58,49 @@ left = \absolute {
   \makePercent { s1 } |
   <cis,, cis,>4 \tuplet 7/4 4 { cis,16 gis, cis \change Staff = "right" \clef "treble" b dis' gis' b' \change Staff = "left" cis gis cis' \change Staff = "right" b' dis'' gis'' b'' } \change Staff = "right" r4 |
   \ottava 1 \tuplet 6/4 {\clef "treble" b'16 dis'' gis'' b'' dis''' gis'''} \change Staff = "left" <ais dis' gis' ais'>8\( <b dis' gis' b'> <ais dis' gis' ais'> <fis fis'> <dis dis'>\) r |
-  <e, e>
+
+  \clef "bass" <e, e>4 <e gis b>2. |
+  <cis, cis>4 <fis b dis'>2. |
+  <e, b, e>2 <e gis b> ~ |
+  1 |
+
+  <cis, cis>1 |
+  <cis e gis> |
+
+  \bar "||"
+
+
+
+
+
+  <b,, fis, b,>2. \voiceTwo <fis,, fis,>2 ~ |
+
+  1 | \oneVoice
+
+
+  <gis,, gis,>2. \voiceTwo <e,, e,>2 ~ |
+
+  1 | \oneVoice
+
+
+
+
+
+
+
+
+
+
+
+  \ottava -1 fis,,1 \ottava 0 |
+  \clef "bass" \tuplet 6/4 { ais,8 b, ais, fis, dis, cis, } b,,4 <fis b dis'> |
+  \clef "bass" \tuplet 6/4 { fis8 gis fis cis ais, fis, } e,4 <e gis b> |
+  \tuplet 3/2 { \clef "treble" <gis' b' e''>8 <fis' ais' dis''> <e' gis' cis''> } <fis' ais' dis''>4 \clef "bass" <dis, dis>4 \tuplet 3/2 { \clef "treble" <fis' ais' dis''>8 <e' gis' cis''> <dis' fis' b'> } |
+  \time 3/4
+  <cis' e' ais'>4 \clef "bass" cis,2 |
+  b,,4 <fis b dis'>2 |
+
+  \once \set PianoStaff.connectArpeggios = ##t
+  <e'' gis'' b''>\arpeggio
 
 }
