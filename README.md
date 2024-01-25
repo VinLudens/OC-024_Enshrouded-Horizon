@@ -7,6 +7,8 @@ Using the template:
 
 [Lilypond](https://lilypond.org/) source code for XXX.
 
+Might be better rewritten using ternary time signatures? Could avoid all the tuplets.
+
 # Recording
 
 - To be recorded
