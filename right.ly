@@ -84,40 +84,40 @@ right = \absolute {
             \change Staff = "left" \compoundMeter #'(3 2 4)
             \change Staff = "right" \compoundMeter #'(3 2 4)
             cis' b ais fis dis cis fis2 |
-            \time 4/4
-            \change Staff = "left" \voiceOne dis2\) r \change Staff = "right" \oneVoice |
+            \time 12/8
+            \change Staff = "left" \voiceOne dis2.\) r \change Staff = "right" \oneVoice |
           }
           \new Voice {
             \voiceOne
             r2. r2 |
             \tuplet 3/2 { \clef "treble" \ottava 1 <cis''' ais'''>8 <b'' gis'''> <fis'' ais''> } <cis'' gis''>2\fermata \ottava 0 r4 |
             r2. r2 |
-            \tempo "Moderato" 4 = 96
-            \ottava 1 \clef "treble" <gis'' b'' e'''>8\( <fis'' b'' dis'''>8  ~ 4 <dis'' fis'' b''>8 <cis'' fis'' ais''>8  ~ 4\fermata\) \ottava 0 |
+            \tempo "Moderato" 4. = 96
+            \ottava 1 \clef "treble" \tuplet 2/3 { <gis'' b'' e'''>8\( <fis'' b'' dis'''>8 } ~ 4. \tuplet 2/3 { <dis'' fis'' b''>8 <cis'' fis'' ais''>8 } ~ 4.\fermata\) \ottava 0 |
           }
         >> \oneVoice
 
-        r4 \stemDown ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' ais''''2 \ottava 0 |
-        \tuplet 3/2 { \ottava 1 q4\( <dis'' fis'' b''> <fis'' ais'' cis'''> } <fis'' b'' dis'''>2 |
-        \tuplet 3/2 { q4 <gis'' b'' e'''> <ais'' cis''' fis'''> } <b'' dis''' gis'''>4\) \ottava 0 <dis' e' gis'>8 \ottava 1 <b'' dis''' gis'''>\( |
-        \tuplet 3/2 { q8 <ais'' cis''' fis'''> <gis'' b'' e'''> } <ais'' cis''' fis'''>4 ~ q8\) q\( \tuplet 3/2 { q <gis'' b'' e'''> <fis'' ais'' dis'''> } |
-        \time 3/4
-        <e'' ais'' dis'''>4 \tuplet 3/2 4 { r8 cis''' dis''' fis''' e''' dis''' } |
-        <fis'' b'' dis'''>4 \tuplet 3/2 4 { r8 cis''' dis''' fis''' e''' dis''' } |
+        r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
+        \ottava 1 q4\( <dis'' fis'' b''> <fis'' ais'' cis'''> <fis'' b'' dis'''>2. |
+        q4 <gis'' b'' e'''> <ais'' cis''' fis'''>  <b'' dis''' gis'''>4.\) \ottava 0 \tuplet 2/3 { <dis' e' gis'>8 \ottava 1 <b'' dis''' gis'''>\( } |
+        q8 <ais'' cis''' fis'''> <gis'' b'' e'''> <ais'' cis''' fis'''>4. ~ \tuplet 2/3 { q8\) q\( } q <gis'' b'' e'''> <fis'' ais'' dis'''> |
+        \time 9/8
+        <e'' ais'' dis'''>4. r8 cis''' dis''' fis''' e''' dis''' |
+        <fis'' b'' dis'''>4. r8 cis''' dis''' fis''' e''' dis''' |
 
-        \time 4/4
+        \time 12/8
 
-        <dis''' e''' gis'''>4.\arpeggio\)-"TODO: phrasing slurs" b''8 <cis'' fis'' ais''>4. ais'''8 |
-        <ais'' dis''' fis'''>4. ais''8 <ais' dis'' gis''>4 \tuplet 3/2 { fis'''8 e''' dis''' } |
-        <gis'' b'' e'''>2\arpeggio <ais' dis'' fisis''>4 \tuplet 3/2 { e'''8 dis''' cis''' } |
-        <fis'' b'' dis'''>4\arpeggio  <fis'' ais'' fis'''>\arpeggio <fis'' a'' dis'''>2\arpeggio |
+        <dis''' e''' gis'''>4.\arpeggio ~ \tuplet 2/3 { 8\)-"TODO: phrasing slurs" b''8 } <cis'' fis'' ais''>4. ~ \tuplet 2/3 { 8 ais'''8 } |
+        <ais'' dis''' fis'''>4. ~ \tuplet 2/3 { 8 ais''8 } <ais' dis'' gis''>4. fis'''8 e''' dis''' |
+        <gis'' b'' e'''>2.\arpeggio <ais' dis'' fisis''>4. e'''8 dis''' cis''' |
+        <fis'' b'' dis'''>4.\arpeggio  <fis'' ais'' fis'''>\arpeggio <fis'' a'' dis'''>2.\arpeggio |
 
-        \time 2/4
-        \tuplet 3/2 { gis'''4 fis''' dis''' } | \ottava 0
-        \time 4/4
-        <e'' gis'' b''>4 \tuplet 3/2 4 { r8 ais'' gis'' <fis'' ais''>4 b''8 ~ 8 cis''' ais'' } |
-        \time 5/4
-        <cis'' fis''>4 \tuplet 3/2 4 { e''8 dis'' e'' <cis'' e'' a''>4\arpeggio <cis'' gis''>8 ~ 8-"TODO: tuplet bracket!!" <cis'' fis''>4 } e''4 |
+        \time 6/8
+        gis'''4 fis''' dis'''  | \ottava 0
+        \time 12/8
+        <e'' gis'' b''>4. r8 ais'' gis'' <fis'' ais''>4 b''8 ~ 8 cis''' ais'' |
+        \time 15/8
+        <cis'' fis''>4. e''8 dis'' e'' <cis'' e'' a''>4\arpeggio <cis'' gis''>8 ~ 8 <cis'' fis''>4 e''4. |
 
         \key a \major
         \time 4/4
