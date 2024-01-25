@@ -149,6 +149,27 @@ left = \absolute {
     }
   }
 
-  a
+  \clef "bass" <e, b, e>2 <e gis b dis'> ~  |
+  1 |
+  <cis, cis>2 <cis e gis b>  |
+  <<
+    {
+      \voiceTwo \tiny \change Staff = "right"
+      s2 b''8 ais'' fis'' cis'' |
+      e'' gis'' b'' cis''' b'' ais'' fis'' ais'' |
+      fis'' dis'' b' cis'' b' ais' fis' ais' |
+      fis' dis' b cis' b ais fis ais | \normalsize \change Staff = "left"
+    }
+    \new Voice {
+      <b,, b,>1 ~ |
+      1 ~ |
+      1 ~ |
+      1 ~ |
+    }
+  >> \oneVoice
+
+  \ottava -1 <b,,, b,,>1 \ottava 0 |
+
+  \bar "|."
 
 }

@@ -4,7 +4,7 @@
 right = \absolute {
   \global
   \key gis \minor
-  \tempo "Andante" 4 = 72
+  \tempo "Andantino" 4 = 80
 
   <e' gis' cis'' e''>8\( <dis' gis' cis'' dis''>8  ~ 4 <b dis' gis' b'>8 <ais dis' gis' ais'>8  ~ 4\) |
   r4 \stemDown ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' ais''''2 \ottava 0 |
@@ -120,7 +120,7 @@ right = \absolute {
         \key a \major
         \time 4/4
         \bar "||"
-        \tempo "Tempo I" 4 = 72
+        \tempo "Tempo I" 4 = 80
         <gis' b' dis''>8\( <dis' fis' b'>8  ~ 4 <cis' e' gis'>8 <gis b dis'>8  ~ 4\) |
         r4 \stemDown gis32 b dis' \change Staff = "left" \clef "treble" \stemUp \ottava 0 gis' dis'' b'' \stemNeutral \change Staff = "right" \ottava 1 dis''' gis''' dis''''2 \ottava 0 |
 
@@ -149,6 +149,27 @@ right = \absolute {
     }
   }
 
-  a
+  ais'8\(-"TODO: slur out of repeat" fis' b' cis'' fis''2 ~ |
+  4.\)\shortfermata e''8\( dis'' e'' ais'' b'' |
+  ais'' fis'' b'' cis''' fis'''2\)\fermata |
+
+
+
+  \clef "bass" <dis fis b>2 \voiceOne \clef "treble" \ottava 1 \tiny \appoggiatura { ais'''16 b''' } ais'''8  fis''' cis''' cis''''  |
+  b''' ais''' fis''' ais''' gis''' fis''' cis''' fis'''  |
+  \ottava 0 dis''' b'' fis'' ais'' gis'' fis'' cis'' fis''  |
+  dis'' b' fis' ais' gis' fis' cis' fis' | \oneVoice \normalsize
+
+
+
+
+
+
+
+
+
+  <fis b cis' dis'>1\arpeggio |
+
+  \bar "|."
 
 }
