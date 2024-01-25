@@ -100,7 +100,43 @@ left = \absolute {
   <cis' e' ais'>4 \clef "bass" cis,2 |
   b,,4 <fis b dis'>2 |
 
+  \time 4/4
   \once \set PianoStaff.connectArpeggios = ##t
-  <e'' gis'' b''>\arpeggio
+  \clef "treble" <e'' gis'' b''>2\arpeggio <fis' ais'> |
+  <dis' fis' ais'>2 <gis dis'>4 c'' |
+  \tuplet 3/2 4 { cis'8 e' gis' cis'' \change Staff = "right" dis'' gis'' \change Staff = "left" dis ais dis' fisis ais dis' } |
+  \tuplet 3/2 4 { b dis' fis' ais dis' fis' a dis' fis' a' dis'' fis'' } |
+
+  \time 2/4
+  a''2 |
+  \time 4/4
+  \tuplet 3/2 { e'8 gis' b' } dis''4 \tuplet 3/2 { fis'8 ais' cis'' } fis''4 |
+  \time 5/4
+  \tuplet 3/2 { dis'8 fis' ais' } cis''4 \tuplet 3/2 4 { a8 cis' e' a' e' cis' } a4 |
+
+  \key a \major
+  \time 4/4
+  \bar "||"
+
+  \clef "bass" <e b e'>8\( <cis fis b cis'>8  ~ 4 <a, e a>8 <e, b, e>8  ~ 4\) |
+  \ottava -1 e,,1 \ottava 0 |
+
+  \clef "bass" \tuplet 3/2 { q4 <fis, cis fis> <gis, dis gis> } <a, e a>4 <a,, a,> |
+  \tuplet 3/2 { <a, e a>4 <b, fis b> <cis gis cis'> } <d a d'>4 <d, d> |
+
+  \tuplet 3/2 { <d d'>8 <cis cis'> <b, b> } <cis cis'>4 <cis, cis>4 \tuplet 3/2 { <cis cis'>8 <b, b> <a, a> } |
+  \tuplet 3/2 { q8 <aes, aes> <a, a> } <g, g>4 <g,, g,>2  |
+  <a, e a>2 a,, |
+
+  \bar "||"
+  \key gis \minor
+
+  <fis cis' fis'>8 <e b e'>8 ~ 4 <cis gis cis'>8 <b, fis b>8 ~ 4 |
+  \ottava -1 b,,1 \ottava 0 |
+
+  \clef "bass" \tuplet 3/2 { q4 <cis gis cis'> <dis ais dis'> } <e b e'>4 <e, e> |
+  \tuplet 3/2 { <e b e'>4 <fis cis' fis'> <gis dis' gis'> } <b fis' b'>8 <ais fis' ais'>4. |
+
+  \ottava -1 <fis,, fis,>1 \ottava 0 |
 
 }
