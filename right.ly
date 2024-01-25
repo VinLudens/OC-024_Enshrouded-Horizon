@@ -4,22 +4,24 @@
 right = \absolute {
   \global
   \key gis \minor
-  \tempo "Andantino" 4 = 80
+  \time 12/8
+  \tempo "Andantino" 4. = 80
 
-  <e' gis' cis'' e''>8\( <dis' gis' cis'' dis''>8  ~ 4 <b dis' gis' b'>8 <ais dis' gis' ais'>8  ~ 4\) |
-  r4 \stemDown ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' ais''''2 \ottava 0 |
+  \tuplet 2/3 { <e' gis' cis'' e''>8\( <dis' gis' cis'' dis''>8 } ~ 4. \tuplet 2/3 { <b dis' gis' b'>8 <ais dis' gis' ais'>8 } ~ 4.\) |
+  r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
 
   \repeat segno 2 {
-    \tuplet 3/2 { q4\( <b dis' gis' b'> <cis' fis' ais' cis''> } <dis' fis' ais' dis''>2 |
-    \tuplet 3/2 { <dis' fis' ais' dis''>4 <e' gis' cis'' e''> <fis' ais' dis'' fis''> } <gis' b' dis'' gis''>4.\) q8\( |
+    \time 12/8
+    q4\(-"TODO: Remove time signature" <b dis' gis' b'> <cis' fis' ais' cis''> <dis' fis' ais' dis''>2. |
+    <dis' fis' ais' dis''>4 <e' gis' cis'' e''> <fis' ais' dis'' fis''> <gis' b' dis'' gis''>4. ~ \tuplet 2/3 { q8\) q8\( } |
 
-    \tuplet 3/2 { q8 <fis' fis''> <e' e''> } <fis' ais' cis'' fis''>4 ~ q8\) q\( \tuplet 3/2 { q <e' e''> <dis' dis''> } |
-    \time 3/4
-    <dis' gis' ais' dis''>4 \tuplet 3/2 4 { r8 cis'' dis'' fis'' e'' dis'' } |
-    \time 4/4
+    q8 <fis' fis''> <e' e''>  <fis' ais' cis'' fis''>4. ~ \tuplet 2/3 { q8\) q\( } q8 <e' e''> <dis' dis''> |
+    \time 9/8
+    <dis' gis' ais' dis''>4. r8 cis'' dis'' fis'' e'' dis''  |
+    \time 12/8
 
-    <fis' b' dis''>2 <fis' ais' cis''>4.\fermata b'16 ais' |
-    b'1\) ~ |
+    <fis' b' dis''>2. <fis' ais' cis''>4.\fermata r8 b' ais' |
+    b'1.\) ~ |
 
     \bar "||"
     \change Staff = "left" \compoundMeter #'(3 4 4)
