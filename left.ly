@@ -139,7 +139,7 @@ left = \absolute {
         \ottava -1 b,,1. \ottava 0 |
 
         \clef "bass" q4 <cis gis cis'> <dis ais dis'> <e b e'>4. <e, e> |
-        <e b e'>4 <fis cis' fis'> <gis dis' gis'> <b fis' b'>8 <ais fis' ais'>4 ~ 4.-"TODO: check rhythm" |
+        <e b e'>4 <fis cis' fis'> <gis dis' gis'> <b fis' b'>8 <ais fis' ais'>4 ~ 4. |
 
         \ottava -1 <fis,, fis,>1. \ottava 0 |
       }

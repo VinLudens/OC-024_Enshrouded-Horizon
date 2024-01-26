@@ -8,7 +8,7 @@ right = \absolute {
   \tempo "Andantino" 4. = 80
 
   \tuplet 2/3 { <e' gis' cis'' e''>8\( <dis' gis' cis'' dis''>8 } ~ 4. \tuplet 2/3 { <b dis' gis' b'>8 <ais dis' gis' ais'>8 } ~ 4.\) |
-  r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
+  r4. \stemDown \tuplet 8/6 { ais16 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
 
   \repeat segno 2 {
     q4\( <b dis' gis' b'> <cis' fis' ais' cis''> <dis' fis' ais' dis''>2. |
@@ -88,15 +88,15 @@ right = \absolute {
           }
           \new Voice {
             \voiceOne
-            r2. r2 |
+            s2. s2 |
             \tuplet 3/2 { \clef "treble" \ottava 1 <cis''' ais'''>8 <b'' gis'''> <fis'' ais''> } <cis'' gis''>2\fermata \ottava 0 r4 |
-            r2. r2 |
+            s2. s2 |
             \tempo "Moderato" 4. = 96
             \ottava 1 \clef "treble" \tuplet 2/3 { <gis'' b'' e'''>8\( <fis'' b'' dis'''>8 } ~ 4. \tuplet 2/3 { <dis'' fis'' b''>8 <cis'' fis'' ais''>8 } ~ 4.\fermata\) \ottava 0 |
           }
         >> \oneVoice
 
-        r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
+        r4. \stemDown \tuplet 8/6 { ais16 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
         \ottava 1 q4\( <dis'' fis'' b''> <fis'' ais'' cis'''> <fis'' b'' dis'''>2. |
         q4 <gis'' b'' e'''> <ais'' cis''' fis'''>  <b'' dis''' gis'''>4.\) \ottava 0 \tuplet 2/3 { <dis' e' gis'>8 \ottava 1 <b'' dis''' gis'''>\( } |
         q8 <ais'' cis''' fis'''> <gis'' b'' e'''> <ais'' cis''' fis'''>4. ~ \tuplet 2/3 { q8\) q\( } q <gis'' b'' e'''> <fis'' ais'' dis'''> |
@@ -121,9 +121,9 @@ right = \absolute {
         \key a \major
         \time 12/8
         \bar "||"
-        \tempo "Tempo I" 4 = 80
+        \tempo "Tempo I" 4. = 80
         \tuplet 2/3 { <gis' b' dis''>8\( <dis' fis' b'>8 } ~ 4. \tuplet 2/3 { <cis' e' gis'>8 <gis b dis'>8 } ~ 4.\) |
-        r4. \stemDown \tuplet 8/12 { gis32 b dis' \change Staff = "left" \clef "treble" \stemUp \ottava 0 gis' dis'' b'' \stemNeutral \change Staff = "right" \ottava 1 dis''' gis''' } dis''''2. \ottava 0 |
+        r4. \stemDown \tuplet 8/6 { gis16 b dis' \change Staff = "left" \clef "treble" \stemUp \ottava 0 gis' dis'' b'' \stemNeutral \change Staff = "right" \ottava 1 dis''' gis''' } dis''''2. \ottava 0 |
 
         q4\( <a cis' e'> <b dis' fis'> <cis' e' gis'>2. |
         q4 <d' fis' a'> <e' gis' b'> <fis' a' cis''>4.\) ~ \tuplet 2/3 { 8 q8\( } |
@@ -136,12 +136,12 @@ right = \absolute {
         \key gis \minor
 
         \tuplet 2/3 { <a' cis'' fis'' a''>8\( <gis' cis'' fis'' gis''>8 } ~ 4. \tuplet 2/3 { <e' gis' cis'' e''>8 <dis' gis' cis'' dis''>8 } ~ 4.\) |
-        r4. \stemDown \tuplet 8/12 { dis'32 gis' dis'' \change Staff = "left" \clef "treble" \stemUp \ottava 0 fis'' b'' fis''' \stemNeutral \change Staff = "right" \ottava 2 b''' dis'''' } b''''2. \ottava 0 |
+        r4. \stemDown \tuplet 8/6 { dis'16 gis' dis'' \change Staff = "left" \clef "treble" \stemUp \ottava 0 fis'' b'' fis''' \stemNeutral \change Staff = "right" \ottava 2 b''' dis'''' } b''''2. \ottava 0 |
 
         <dis' fis' ais' dis''>4\( <e' gis' cis'' e''> <fis' ais' dis'' fis''> <gis' b' dis'' gis''>2. |
         q4 <ais' cis'' fis'' ais''> <b' dis'' gis'' b''> <dis'' fis'' ais'' dis'''>8 <cis'' fis'' ais'' cis'''>4 ~ 4.\) |
 
-        r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
+        r4. \stemDown \tuplet 8/6 { ais16 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
       }
       \volta 2 {
         \section
@@ -150,7 +150,7 @@ right = \absolute {
     }
   }
 
-  ais'8\(-"TODO: slur out of repeat" fis' b' cis'' fis''2 ~ |
+  ais'8\( fis' b' cis'' fis''2 ~ |
   4.\)\shortfermata e''8\( dis'' e'' ais'' b'' |
   ais'' fis'' b'' cis''' fis'''2\)\fermata |
 
