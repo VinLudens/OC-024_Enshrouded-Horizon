@@ -11,7 +11,6 @@ left = \absolute {
   \ottava -1 fis,,1. \ottava 0 |
 
   \repeat segno 2 {
-    \time 12/8
     \clef "bass" <fis, cis fis>4 <gis, dis gis> <ais, fis ais>  <b, fis b>4. <b,, b,> |
     <b, fis b>4 <cis gis cis'> <dis ais dis'> <e b e'>4. <e, e> |
 
@@ -120,29 +119,29 @@ left = \absolute {
         dis'8 fis' ais' cis''4. a8 cis' e' a' e' cis' a4. |
 
         \key a \major
-        \time 4/4
+        \time 12/8
         \bar "||"
 
-        \clef "bass" <e b e'>8\( <cis fis b cis'>8  ~ 4 <a, e a>8 <e, b, e>8  ~ 4\) |
-        \ottava -1 e,,1 \ottava 0 |
+        \clef "bass" \tuplet 2/3 {  <e b e'>8\( <cis fis b cis'>8 } ~ 4. \tuplet 2/3 {  <a, e a>8 <e, b, e>8 } ~ 4.\) |
+        \ottava -1 e,,1. \ottava 0 |
 
-        \clef "bass" \tuplet 3/2 { q4 <fis, cis fis> <gis, dis gis> } <a, e a>4 <a,, a,> |
-        \tuplet 3/2 { <a, e a>4 <b, fis b> <cis gis cis'> } <d a d'>4 <d, d> |
+        \clef "bass" q4 <fis, cis fis> <gis, dis gis> <a, e a>4. <a,, a,> |
+        <a, e a>4 <b, fis b> <cis gis cis'> <d a d'>4. <d, d> |
 
-        \tuplet 3/2 { <d d'>8 <cis cis'> <b, b> } <cis cis'>4 <cis, cis>4 \tuplet 3/2 { <cis cis'>8 <b, b> <a, a> } |
-        \tuplet 3/2 { q8 <aes, aes> <a, a> } <g, g>4 <g,, g,>2  |
-        <a, e a>2 a,, |
+        <d d'>8 <cis cis'> <b, b> <cis cis'>4. <cis, cis> <cis cis'>8 <b, b> <a, a> |
+        q8 <aes, aes> <a, a> <g, g>4. <g,, g,>2.  |
+        <a, e a>2. a,, |
 
         \bar "||"
         \key gis \minor
 
-        <fis cis' fis'>8 <e b e'>8 ~ 4 <cis gis cis'>8 <b, fis b>8 ~ 4 |
-        \ottava -1 b,,1 \ottava 0 |
+        \tuplet 2/3 { <fis cis' fis'>8 <e b e'>8 } ~ 4. \tuplet 2/3 { <cis gis cis'>8 <b, fis b>8 } ~ 4. |
+        \ottava -1 b,,1. \ottava 0 |
 
-        \clef "bass" \tuplet 3/2 { q4 <cis gis cis'> <dis ais dis'> } <e b e'>4 <e, e> |
-        \tuplet 3/2 { <e b e'>4 <fis cis' fis'> <gis dis' gis'> } <b fis' b'>8 <ais fis' ais'>4. |
+        \clef "bass" q4 <cis gis cis'> <dis ais dis'> <e b e'>4. <e, e> |
+        <e b e'>4 <fis cis' fis'> <gis dis' gis'> <b fis' b'>8 <ais fis' ais'>4 ~ 4.-"TODO: check rhythm" |
 
-        \ottava -1 <fis,, fis,>1 \ottava 0 |
+        \ottava -1 <fis,, fis,>1. \ottava 0 |
       }
       \volta 2 {
         \section

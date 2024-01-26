@@ -11,8 +11,7 @@ right = \absolute {
   r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
 
   \repeat segno 2 {
-    \time 12/8
-    q4\(-"TODO: Remove time signature" <b dis' gis' b'> <cis' fis' ais' cis''> <dis' fis' ais' dis''>2. |
+    q4\( <b dis' gis' b'> <cis' fis' ais' cis''> <dis' fis' ais' dis''>2. |
     <dis' fis' ais' dis''>4 <e' gis' cis'' e''> <fis' ais' dis'' fis''> <gis' b' dis'' gis''>4. ~ \tuplet 2/3 { q8\) q8\( } |
 
     q8 <fis' fis''> <e' e''>  <fis' ais' cis'' fis''>4. ~ \tuplet 2/3 { q8\) q\( } q8 <e' e''> <dis' dis''> |
@@ -120,29 +119,29 @@ right = \absolute {
         <cis'' fis''>4. e''8 dis'' e'' <cis'' e'' a''>4\arpeggio <cis'' gis''>8 ~ 8 <cis'' fis''>4 e''4. |
 
         \key a \major
-        \time 4/4
+        \time 12/8
         \bar "||"
         \tempo "Tempo I" 4 = 80
-        <gis' b' dis''>8\( <dis' fis' b'>8  ~ 4 <cis' e' gis'>8 <gis b dis'>8  ~ 4\) |
-        r4 \stemDown gis32 b dis' \change Staff = "left" \clef "treble" \stemUp \ottava 0 gis' dis'' b'' \stemNeutral \change Staff = "right" \ottava 1 dis''' gis''' dis''''2 \ottava 0 |
+        \tuplet 2/3 { <gis' b' dis''>8\( <dis' fis' b'>8 } ~ 4. \tuplet 2/3 { <cis' e' gis'>8 <gis b dis'>8 } ~ 4.\) |
+        r4. \stemDown \tuplet 8/12 { gis32 b dis' \change Staff = "left" \clef "treble" \stemUp \ottava 0 gis' dis'' b'' \stemNeutral \change Staff = "right" \ottava 1 dis''' gis''' } dis''''2. \ottava 0 |
 
-        \tuplet 3/2 { q4\( <a cis' e'> <b dis' fis'> } <cis' e' gis'>2 |
-        \tuplet 3/2 { q4 <d' fis' a'> <e' gis' b'> } <fis' a' cis''>4.\) q8\( |
+        q4\( <a cis' e'> <b dis' fis'> <cis' e' gis'>2. |
+        q4 <d' fis' a'> <e' gis' b'> <fis' a' cis''>4.\) ~ \tuplet 2/3 { 8 q8\( } |
 
-        \tuplet 3/2 { q8 <e' gis' b'> <d' fis' a'> } <e' gis' b'>4 ~ 8 q \tuplet 3/2 { q <d' fis' a'> <cis' e' gis'>\) } |
-        \tuplet 3/2 { q8\( <c' ees' g'> <cis' e' gis'> } <d' g' b'>2\) \tuplet 3/2 { q8\( a' gis' } |
-        <cis' e' gis'>1\) |
+        q8 <e' gis' b'> <d' fis' a'> <e' gis' b'>4. ~ \tuplet 2/3 { 8 q } q <d' fis' a'> <cis' e' gis'>\) |
+        q8\( <c' ees' g'> <cis' e' gis'> <d' g' b'>2.\) q8\( a' gis' |
+        <cis' e' gis'>1.\) |
 
         \bar "||"
         \key gis \minor
 
-        <a' cis'' fis'' a''>8\( <gis' cis'' fis'' gis''>8  ~ 4 <e' gis' cis'' e''>8 <dis' gis' cis'' dis''>8  ~ 4\) |
-        r4 \stemDown dis'32 gis' dis'' \change Staff = "left" \clef "treble" \stemUp \ottava 0 fis'' b'' fis''' \stemNeutral \change Staff = "right" \ottava 2 b''' dis'''' b''''2 \ottava 0 |
+        \tuplet 2/3 { <a' cis'' fis'' a''>8\( <gis' cis'' fis'' gis''>8 } ~ 4. \tuplet 2/3 { <e' gis' cis'' e''>8 <dis' gis' cis'' dis''>8 } ~ 4.\) |
+        r4. \stemDown \tuplet 8/12 { dis'32 gis' dis'' \change Staff = "left" \clef "treble" \stemUp \ottava 0 fis'' b'' fis''' \stemNeutral \change Staff = "right" \ottava 2 b''' dis'''' } b''''2. \ottava 0 |
 
-        \tuplet 3/2 { <dis' fis' ais' dis''>4\( <e' gis' cis'' e''> <fis' ais' dis'' fis''> } <gis' b' dis'' gis''>2 |
-        \tuplet 3/2 { q4 <ais' cis'' fis'' ais''> <b' dis'' gis'' b''> } <dis'' fis'' ais'' dis'''>8 <cis'' fis'' ais'' cis'''>4.\) |
+        <dis' fis' ais' dis''>4\( <e' gis' cis'' e''> <fis' ais' dis'' fis''> <gis' b' dis'' gis''>2. |
+        q4 <ais' cis'' fis'' ais''> <b' dis'' gis'' b''> <dis'' fis'' ais'' dis'''>8 <cis'' fis'' ais'' cis'''>4 ~ 4.\) |
 
-        r4 \stemDown ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' ais''''2 \ottava 0 |
+        r4. \stemDown \tuplet 8/12 { ais32 dis' ais' \change Staff = "left" \clef "treble" \stemUp \ottava 0 dis'' ais'' dis''' \stemNeutral \change Staff = "right" \ottava 2 ais''' dis'''' } ais''''2. \ottava 0 |
       }
       \volta 2 {
         \section
