@@ -7,14 +7,81 @@
 \addEdition fingering
 \addEdition dynamics
 
-\editionMod dynamics 1 0/8 music.Dynamics -"Editions"
+% \editionMod dynamics 22 3/8 music.Dynamics \mp
+\editionMod dynamics 1 0/8 music.Dynamics \mp
+
+\editionMod dynamics 2 3/8 music.Voice.A \tiny
+
+\editionMod dynamics 3 0/8 music.Dynamics \<
+\editionMod dynamics 3 0/8 music.Voice.A \normalsize
+
+\editionMod dynamics 4 6/8 music.Dynamics \mf
+
+\editionMod dynamics 5 9/8 music.Dynamics \>
+\editionMod dynamics 5 0/12 music.Dynamics.A -"TODO: start on tuplet"
+
+\editionMod dynamics 6 0/8 music.Dynamics \p
+
+\editionMod dynamics 9 0/8 music.Dynamics \mp
+
+\editionMod dynamics 13 0/8 music.Dynamics \<
+
+\editionMod dynamics 14 0/8 music.Dynamics \f
+\editionMod dynamics 14 0/8 music.Dynamics \>
+
+\editionMod dynamics 15 0/8 music.Dynamics \!
+
+\editionMod dynamics 18 0/8 music.Dynamics \<
+
+\editionMod dynamics 20 0/8 music.Dynamics \sff
+\editionMod dynamics 20 0/8 music.Voice.A -^
+\editionMod dynamics 20 0/8 music.Voice.B -^
+\editionMod dynamics 20 3/4 music.Voice.A -^
+
+\editionMod dynamics 23 3/4 music.Dynamics \mp
+
+\editionMod dynamics 29 0/4 music.Voice.C \tiny
+
+\editionMod dynamics 32 3/8 music.Voice.A \tiny
 \editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
 \editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)
+
+\editionMod dynamics 33 0/8 music.Voice.A \normalsize
+\editionMod dynamics 33 0/8 music.Dynamics \<
+\editionMod dynamics 33 6/8 music.Dynamics \!
+
+\editionMod dynamics 34 0/8 music.Dynamics \<
+\editionMod dynamics 34 6/8 music.Dynamics \mf
+
+\editionMod dynamics 36 4/8 music.Dynamics \>
+
+\editionMod dynamics 38 0/8 music.Dynamics \pp
+
+\editionMod dynamics 44 6/8 music.Dynamics \<
+\editionMod dynamics 44 9/8 music.Dynamics \>
+\editionMod dynamics 44 12/8 music.Dynamics \!
+
+\editionMod dynamics 45 0/8 music.Dynamics \mp
+
+\editionMod dynamics 47 0/8 music.Dynamics \<
+
+\editionMod dynamics 48 6/8 music.Dynamics \mf
+
+\editionMod dynamics 50 3/8 music.Dynamics \>
+
+\editionMod dynamics 51 0/8 music.Dynamics \p
 
 \editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
 \editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)
 
+\editionMod dynamics 54 0/8 music.Dynamics \<
+
+\editionMod dynamics 55 6/8 music.Dynamics \!
+
+\editionMod dynamics 56 0/8 music.Dynamics \fp
 \editionMod tweaks 56 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
 \editionMod tweaks 56 3/8 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)
 
 \editionMod tweaks 57 0/4 music.Voice.A -"TODO: slur out of repeat"
+
+\editionMod dynamics 60 0/8 music.Dynamics \p
