@@ -156,7 +156,7 @@ right = \absolute {
 
 
 
-  \clef "bass" <dis fis b>2 \voiceOne \clef "treble" \ottava 1 \tiny \appoggiatura { ais'''16 b''' } ais'''8  fis''' cis''' cis''''  |
+  \clef "bass" <dis fis b>2 \voiceOne \clef "treble" \ottava 1 \tiny \appoggiatura { ais'''16 b'''8 } ais'''8  fis''' cis''' cis''''  |
   b''' ais''' fis''' ais''' gis''' fis''' cis''' fis'''  |
   \ottava 0 dis''' b'' fis'' ais'' gis'' fis'' cis'' fis''  |
   dis'' b' fis' ais' gis' fis' cis' fis' | \oneVoice \normalsize
