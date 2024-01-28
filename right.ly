@@ -106,17 +106,17 @@ right = \absolute {
 
         \time 12/8
 
-        <dis''' e''' gis'''>4.\arpeggio ~ \tuplet 2/3 { 8\)-"TODO: phrasing slurs" b''8 } <cis'' fis'' ais''>4. ~ \tuplet 2/3 { 8 ais'''8 } |
+        <dis''' e''' gis'''>4.\)\(\arpeggio ~ \tuplet 2/3 { 8 b''8 } <cis'' fis'' ais''>4. ~ \tuplet 2/3 { 8 ais'''8 } |
         <ais'' dis''' fis'''>4. ~ \tuplet 2/3 { 8 ais''8 } <ais' dis'' gis''>4. fis'''8 e''' dis''' |
         <gis'' b'' e'''>2.\arpeggio <ais' dis'' fisis''>4. e'''8 dis''' cis''' |
-        <fis'' b'' dis'''>4.\arpeggio  <fis'' ais'' fis'''>\arpeggio <fis'' a'' dis'''>2.\arpeggio |
+        <fis'' b'' dis'''>4.\arpeggio  <fis'' ais'' fis'''>\arpeggio <fis'' a'' dis'''>2.\)\arpeggio |
 
         \time 6/8
         gis'''4 fis''' dis'''  | \ottava 0
         \time 12/8
-        <e'' gis'' b''>4. r8 ais'' gis'' <fis'' ais''>4 b''8 ~ 8 cis''' ais'' |
+        <e'' gis'' b''>4.\( r8 ais'' gis'' <fis'' ais''>4 b''8 ~ 8 cis''' ais'' |
         \time 15/8
-        <cis'' fis''>4. e''8 dis'' e'' <cis'' e'' a''>4\arpeggio <cis'' gis''>8 ~ 8 <cis'' fis''>4 e''4. |
+        <cis'' fis''>4. e''8 dis'' e'' <cis'' e'' a''>4\arpeggio <cis'' gis''>8 ~ 8 <cis'' fis''>4 e''4.\) |
 
         \key a \major
         \time 12/8
