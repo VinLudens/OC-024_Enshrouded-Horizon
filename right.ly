@@ -35,7 +35,7 @@ right = \absolute {
     \change Staff = "right" \compoundMeter #'(4 4 4)
 
     dis'8\( e' fis' e' dis' b fis ais gis2 fis \) |
-    \time 4/4 dis'8\( e' ais' b' ais' fis' dis' cis' |
+    \time 4/4 \clef "treble" dis'8\( e' ais' b' ais' fis' dis' cis' | \clef "bass"
     <fis b dis'>2 <fis cis'>\) |
 
     \change Staff = "left" \compoundMeter #'(3 4 4)
