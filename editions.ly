@@ -79,8 +79,7 @@
 
 \editionMod dynamics 51 0/8 music.Dynamics \p
 
-\editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
-\editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)
+\editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.positions = #'(-6.5 . -2.5)
 
 \editionMod dynamics 54 0/8 music.Dynamics \<
 
