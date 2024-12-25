@@ -51,8 +51,7 @@
 \editionMod tweaks 29 3/4 music.Voice.A \once \shape #'(() ((0 . 0) (2 . -3) (0 . 10) (0 . 3))) PhrasingSlur
 
 \editionMod dynamics 32 3/8 music.Voice.A \tiny
-\editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
-\editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.color = #(rgb-color 1 0 0)
+\editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.positions = #'(-6.5 . -2.5)
 
 \editionMod dynamics 33 0/8 music.Voice.A \normalsize
 \editionMod dynamics 33 0/8 music.Dynamics \<
