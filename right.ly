@@ -69,7 +69,7 @@ right = \absolute {
         2\) b8\( b b cis' |
 
         <gis b fis'>2 r8 e'8 dis' e' |
-        <b dis'>2.\) \clef "bass" cis'8\( b |
+        <b dis'>2.\) \clef "bass" cis'8_\( b |
 
         \bar "||"
 

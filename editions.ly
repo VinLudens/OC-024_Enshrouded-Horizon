@@ -45,6 +45,8 @@
 
 \editionMod dynamics 23 3/4 music.Dynamics \mp
 
+\editionMod tweaks 27 3/4 music.Voice.A \once \shape #'((0 . 0) (3 . -4) (-3 . 11) (0 . 3)) PhrasingSlur
+
 \editionMod dynamics 29 0/4 music.Voice.C \tiny
 
 \editionMod dynamics 32 3/8 music.Voice.A \tiny
