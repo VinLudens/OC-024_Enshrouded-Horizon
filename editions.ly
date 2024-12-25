@@ -48,6 +48,7 @@
 \editionMod tweaks 27 3/4 music.Voice.A \once \shape #'((0 . 0) (3 . -4) (-3 . 11) (0 . 3)) PhrasingSlur
 
 \editionMod dynamics 29 0/4 music.Voice.C \tiny
+\editionMod tweaks 29 3/4 music.Voice.A \once \shape #'(() ((0 . 0) (2 . -3) (0 . 10) (0 . 3))) PhrasingSlur
 
 \editionMod dynamics 32 3/8 music.Voice.A \tiny
 \editionMod tweaks 32 3/8 music.Voice.A \once\override Beam.positions = #'(-8 . -2)
