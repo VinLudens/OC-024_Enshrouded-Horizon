@@ -18,6 +18,7 @@
 \editionMod dynamics 4 6/8 music.Dynamics \mf
 
 \editionMod dynamics 5 15/16 music.Dynamics \>
+\editionMod dynamics 5 15/16 music.Voice.A \once\shape #'((0 . -1.5) (1 . 2) (-1 . 0.5) (0 . -1)) PhrasingSlur
 
 \editionMod dynamics 6 0/8 music.Dynamics \p
 
