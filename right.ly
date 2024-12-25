@@ -58,8 +58,8 @@ right = \absolute {
 
     <b, b>4\( <cis cis'>4.\) <dis dis'>4\( <e e'>8 ~ |
     q4\) <fis fis'>4\( <gis gis'> <ais ais'> |
-    <b dis' gis' b'>2. \change Staff = "left" \clef "treble" <ais dis' gis' ais'>4 ~ |
-    q\) \change Staff = "right" \clef "treble" <ais'' dis''' gis''' ais'''>8\( <b'' dis''' gis''' b'''> <ais'' dis''' gis''' ais'''> <fis'' fis'''> <dis'' dis'''> <gis'' gis'''> |
+    <b dis' gis' b'>2.\) \change Staff = "left" \clef "treble" <ais dis' gis' ais'>4 ~ |
+    q \change Staff = "right" \clef "treble" <ais'' dis''' gis''' ais'''>8\( <b'' dis''' gis''' b'''> <ais'' dis''' gis''' ais'''> <fis'' fis'''> <dis'' dis'''> <gis'' gis'''> |
 
     <fis'' ais'' cis''' fis'''>4.\) \ottava 0 b'8\( b' b' b' cis'' |
     <fis' b' dis''>2 cis''4\) ais'8\( b' |
