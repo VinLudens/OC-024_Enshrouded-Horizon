@@ -21,7 +21,11 @@
 
 \editionMod dynamics 6 0/8 music.Dynamics \p
 
+\editionMod tweaks 8 0/4 music.Voice.A \once\override Tie.layer = #-2
+
 \editionMod dynamics 9 0/8 music.Dynamics \mp
+\editionMod tweaks 9 0/4 music.Voice.A \once\override Staff.TimeSignature.whiteout = #3
+\editionMod tweaks 9 0/4 music.Voice.A \once\override Staff.TimeSignature.layer = #-1
 
 \editionMod dynamics 13 0/8 music.Dynamics \<
 
