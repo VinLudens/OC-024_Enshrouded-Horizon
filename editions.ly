@@ -79,6 +79,8 @@
 
 \editionMod dynamics 51 0/8 music.Dynamics \p
 
+\editionMod tweaks 52 0/4 music.Voice.A \once \shape #'((0 . 0) (0 . 0) (0 . 1) (0 . -1.5)) PhrasingSlur
+
 \editionMod tweaks 53 3/8 music.Voice.A \once\override Beam.positions = #'(-6.5 . -2.5)
 
 \editionMod dynamics 54 0/8 music.Dynamics \<
