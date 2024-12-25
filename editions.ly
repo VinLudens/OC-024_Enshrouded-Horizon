@@ -17,8 +17,7 @@
 
 \editionMod dynamics 4 6/8 music.Dynamics \mf
 
-\editionMod dynamics 5 9/8 music.Dynamics \>
-\editionMod dynamics 5 0/12 music.Dynamics.A -"TODO: start on tuplet"
+\editionMod dynamics 5 15/16 music.Dynamics \>
 
 \editionMod dynamics 6 0/8 music.Dynamics \p
 
