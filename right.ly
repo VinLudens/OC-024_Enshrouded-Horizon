@@ -79,7 +79,7 @@ right = \absolute {
             \change Staff = "right" \compoundMeter #'(3 2 4)
             ais b ais fis dis cis dis2 |
             \time 4/4
-            \change Staff = "left" \voiceOne cis2.\) \change Staff = "right" \oneVoice \clef "bass" ais8\( b
+            \change Staff = "left" \voiceOne cis2.\) \change Staff = "right" \oneVoice \clef "bass" ais8\( b |
             \change Staff = "left" \compoundMeter #'(3 2 4)
             \change Staff = "right" \compoundMeter #'(3 2 4)
             cis' b ais fis dis cis fis2 |
