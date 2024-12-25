@@ -34,6 +34,8 @@
 
 \editionMod dynamics 15 0/8 music.Dynamics \!
 
+\editionMod tweaks 17 0/4 music.Voice.A \once \shape #'((0 . -1.4) (0 . -1) (0 . 1.2) (0 . -2)) PhrasingSlur
+
 \editionMod dynamics 18 0/8 music.Dynamics \<
 
 \editionMod tweaks 19 1/4 music.Voice.A \once \shape #'((0 . -1.2) (0 . -1) (0 . -0.5) (0 . 0)) PhrasingSlur
